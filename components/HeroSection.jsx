@@ -19,7 +19,7 @@ const menuItems = [
 
 export function HeroSection() {
   return (
-    <div className="relative isolate z-0 bg-[url('/sweater.jpg')] bg-cover bg-center px-6 pt-14 lg:px-8">
+    <div className="relative isolate z-0 bg-[url('/flowers.jpg')] bg-cover bg-center px-6 pt-14 lg:px-8">
       <div className="relative mx-auto max-w-2xl py-24">
         <div className="absolute inset-x-0 -top-[4rem] -z-10 transform-gpu overflow-hidden blur-3xl md:-top-[10rem]">
           <svg
@@ -48,10 +48,10 @@ export function HeroSection() {
           </svg>
         </div>
         <div className="text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            High-quality in style fashion.
+          <h1 className="text-4xl font-bold tracking-tight text-blue-300 sm:text-6xl">
+            Stylish,High-quality fashion.
           </h1>
-          <p className="mt-6 text-lg leading-8 text-black-600 font-semibold">
+          <p className="mt-6 text-lg leading-8 text-black-900 font-semibold">
             We have the latest and most exclusive styles for people of all ages.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-2"></div>

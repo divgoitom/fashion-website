@@ -18,7 +18,7 @@ export function Footer() {
             <ul className="-m-5 flex flex-wrap items-center">
               <li className="p-5">
                 <a
-                  className="font-medium text-gray-600 hover:text-gray-700"
+                  className="font-medium text-gray-600 hover:text-blue-300 hover:underline"
                   href="#"
                 >
                   Privacy Policy
@@ -26,7 +26,7 @@ export function Footer() {
               </li>
               <li className="p-5">
                 <a
-                  className="font-medium text-gray-600 hover:text-gray-700"
+                  className="font-medium text-gray-600 hover:text-blue-300 hover:underline"
                   href="#"
                 >
                   Terms of Service
@@ -34,7 +34,7 @@ export function Footer() {
               </li>
               <li className="p-5">
                 <a
-                  className="font-medium text-gray-600 hover:text-gray-700"
+                  className="font-medium text-gray-600 hover:text-blue-300 hover:underline"
                   href="#"
                 >
                   Return Policy
@@ -42,7 +42,7 @@ export function Footer() {
               </li>
               <li className="p-5">
                 <a
-                  className="font-medium text-gray-600 hover:text-gray-700"
+                  className="font-medium text-gray-600 hover:text-blue-300 hover:underline"
                   href="#"
                 >
                   Contact Us
