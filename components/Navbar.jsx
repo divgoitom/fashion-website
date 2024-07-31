@@ -21,9 +21,10 @@ export function Navbar() {
     <div className="relative w-full bg-white">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
         {/* Brand Name */}
-        <div className="font-bold">Simple Fashion</div>
+        <div className="ml-4 text-lg font-bold text-blue-300">
+          Simple Fashion
+        </div>
 
-        {/* Desktop Menu */}
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <ul className="inline-flex space-x-8">
             {menuItems.map((item) => (
@@ -39,22 +40,18 @@ export function Navbar() {
           </ul>
         </div>
 
-        {/* Mobile Menu Button */}
         <div className="lg:hidden">
           <Menu onClick={toggleMenu} className="h-6 w-6 cursor-pointer" />
         </div>
 
-        {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="absolute inset-x-0 top-0 z-50 origin-top-right transform p-2 transition lg:hidden">
             <div className="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5">
               <div className="px-5 pb-6 pt-5">
                 <div className="flex items-center justify-between">
-                  {/* Brand Name */}
-
-                  <div className="text-orange-600 font-bold text-xl">
+                  <span className="ml-4 text-lg font-bold text-blue-300">
                     Simple Fashion
-                  </div>
+                  </span>
                   <div className="-mr-2">
                     <button
                       type="button"

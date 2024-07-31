@@ -8,7 +8,9 @@ export function Footer() {
           <div className="w-auto p-8">
             <a href="#">
               <div className="inline-flex items-center">
-                <span className="ml-4 text-lg font-bold">Simple Fashions</span>
+                <span className="ml-4 text-lg font-bold text-blue-300">
+                  Simple Fashion
+                </span>
               </div>
             </a>
           </div>
