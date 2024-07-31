@@ -51,11 +51,10 @@ export function Navbar() {
               <div className="px-5 pb-6 pt-5">
                 <div className="flex items-center justify-between">
                   {/* Brand Name */}
-                  <div className="text-bold font-serif text-orange-900">
+
+                  <div className="text-orange-600 font-bold text-xl">
                     Simple Fashion
                   </div>
-
-                  {/* Close Button */}
                   <div className="-mr-2">
                     <button
                       type="button"
