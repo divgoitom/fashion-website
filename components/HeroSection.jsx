@@ -48,8 +48,9 @@ export function HeroSection() {
           </svg>
         </div>
         <div className="text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-blue-300 sm:text-6xl">
-            Stylish,High-quality fashion.
+          <h1 className="text-4xl font-bold tracking-tight text-black-900 sm:text-6xl">
+            Stylish,<span className=" text-blue-300">High-quality</span>{" "}
+            fashion.
           </h1>
           <p className="mt-6 text-lg leading-8 text-black-900 font-semibold">
             We have the latest and most exclusive styles for people of all ages.
