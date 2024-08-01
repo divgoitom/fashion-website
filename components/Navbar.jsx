@@ -18,7 +18,7 @@ export function Navbar() {
   };
 
   return (
-    <div className=" w-full sticky top-0 z-50 bg-white">
+    <div className=" w-full sticky top-0 z-50 bg-white py-1">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8 relative">
         {/* Brand Name */}
         <div className="ml-4 text-lg font-bold text-blue-300 hover:cursor-pointer">
