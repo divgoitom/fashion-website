@@ -31,7 +31,7 @@ export function Navbar() {
               <li key={item.name}>
                 <a
                   href={item.href}
-                  className="text-sm font-semibold text-blue-300 p-3 hover:underline"
+                  className="text-sm font-semibold text-gray-600 hover:text-blue-300 p-3 hover:underline"
                 >
                   {item.name}
                 </a>
@@ -45,7 +45,7 @@ export function Navbar() {
         </div>
 
         {isMenuOpen && (
-          <div className="absolute inset-x-0 top-0 z-50 origin-top-right transform p-2 transition lg:hidden">
+          <div className="absolute inset-x-0 top-0 z-50 origin-top-right transform p-2 transition lg:hidden shadow-md">
             <div className="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5 sticky top-0">
               <div className="px-5 pb-6 pt-5">
                 <div className="flex items-center justify-between">

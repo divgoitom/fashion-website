@@ -19,7 +19,7 @@ const menuItems = [
 
 export function HeroSection() {
   return (
-    <div className="relative isolate z-0 bg-[url('/flowers.jpg')] bg-cover bg-center px-6 pt-14 lg:px-8">
+    <div className="relative isolate z-0 bg-[url('/flowers.jpg')] bg-cover bg-center px-6 pt-14 lg:px-8 shadow-md">
       <div className="relative mx-auto max-w-2xl py-24">
         <div className="absolute inset-x-0 -top-[4rem] -z-10 transform-gpu overflow-hidden blur-3xl md:-top-[10rem]">
           <svg
@@ -57,7 +57,7 @@ export function HeroSection() {
           <div className="mt-10 flex items-center justify-center gap-x-2"></div>
           <button
             type="button"
-            class="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+            class="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-grey-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
           >
             Shop Now
           </button>

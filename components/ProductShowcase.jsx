@@ -13,7 +13,7 @@ export function ProductShowcase() {
       imageUrl:
         "https://images.pexels.com/photos/1240892/pexels-photo-1240892.jpeg?auto=compress&cs=tinysrgb&w=400",
       title: "Delta Shoes",
-      description: "Stylish and comfortable shoes for everyday wear.",
+      description: "Stylish and convenient shoes for everyday wear.",
       price: "79.99",
       buttonText: "Buy Now",
     },
